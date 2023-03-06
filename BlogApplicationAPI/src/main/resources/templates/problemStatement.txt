@@ -1,0 +1,52 @@
+Blog Application : Client Requirement
+
+Client wants blogging application where he/she can write blogs and articles.
+use can comment on the blogs/articles.
+
+We have to build simple Blogging Application :
+- user should create, update, delete and list posts
+- user shoud add, update, delete comments on posts.
+- categories the posts according to categories
+- new user should able to register on our application
+- user should able to login our application
+- post include on picture too.
+
+what we are going to build : some technical terms
+- proper login and register API
+- posts API includes pagination and sorting
+- proper user input validation handling
+- proper exception handling
+- Role based authentication-role based security with API's
+- JWT based authentication
+- document all rest apis so that consumer can easy understand
+- deploy the bacend application on any cloud platform.
+
+Technologies :
+Framework : SpringBoot 
+Java 8+
+Maven
+STS
+Apche Tomcat (Embedded server in SpringBoot App)
+Spring core, Spring security(jwt), Spring data JPA(Hibernate) etc.
+
+MySQL database
+Postman Rest Client (API Testing)
+Swagger (API Documentaion)
+AWS - EC2 (Deployment)
+
+
+Resources : 
+User
+Category
+Post
+Comments
+
+Best Architecture while using Spring boot for backend : 
+Layered Architecture
+
+Controller -> API Layere
+Service -> Business Logic
+Repositories -> DAO Layer (Data Access) 
+
+
+To check the port number : \s (in mysql commant line)
