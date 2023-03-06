@@ -1,12 +1,11 @@
 # Blog Application
 
 
-This project is developed by a team of 4 members with the help of the Spring-Boot framework.It is Back-End project build in construct week at masai.
+This project is developed by individual with the help of the Spring-Boot framework.It is Back-End project build in construct week at masai.
 It contained all the basic CRUD operation related to different entity.
 
 ## Contributors (Individual Project)
 - [@kajol](https://github.com/Kajol1106)
-
 
 
 ## Tech Stack and Tools
