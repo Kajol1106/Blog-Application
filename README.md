@@ -20,6 +20,7 @@ It contained all the basic CRUD operation related to different entity.
 - Maven ORM
 - Apache Tomcat Server (Embedded server in SpringBoot App)
 - STS
+- Git & Github
 
 
 ## Modules
