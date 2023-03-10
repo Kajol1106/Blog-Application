@@ -29,6 +29,9 @@ It contained all the basic CRUD operation related to different entity.
 - Category Module
 - Comment Module
 
+## ER Diagram
+![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/blogapperdiagram.png)
+
 ## Features
 User Features:
 - user should create, update, delete and list posts
@@ -51,10 +54,29 @@ Categories Features:
  Comment Features:
  - user shoud add, update, delete comments on posts.
  
- ## Used Architecture 
+ ## Architecture 
  
  Layered Architecture
-- Controller -> API Layere -> Service -> Business Logic -> Repositories -> DAO Layer (Data Access) 
+- Structure (Controller -> API Layere -> Service -> Business Logic -> Repositories -> DAO Layer (Data Access))
+![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/layered%20Architecture.png)
+
+User interaction layer:
+- This is the layer that interacts with users through screens, forms, menus, reports, etc.
+- It defines how the application looks.  
+
+Functionality layer: 
+- This is the layer that presents the functions, methods, and procedures of the system based on the business rules layer
+
+Business rules layer:
+- This layer contains rules that determine the behavior of the whole application, such as, “If an invoice is printed, then send an email to the customer, select all items sold, and decrease their stock in the stock management module.” 
+
+Application core layer:
+- This server contains the main programs, code definitions, and basic functions of the application.
+- Programmers work in this layer most of the time.
+
+Database layer:
+- This layer contains the tables, indexes, and data managed by the application.
+- Searches and insert/delete/update operations are executed here. 
 
   
 ## Installation & Run
