@@ -31,7 +31,6 @@ It contained all the basic CRUD operation related to different entity.
 ## Features
 User Features:
 - user should create, update, delete and list posts
-- user shoud add, update, delete comments on posts.
 - new user should able to register on our application
  
 Categories Features:
@@ -47,6 +46,9 @@ Categories Features:
  - you can search posts using keyword.
  - posts include one image too.
  - user can get the specific image also.
+ 
+ Comment Features:
+ - user shoud add, update, delete comments on posts.
  
  ## Used Architecture 
  
