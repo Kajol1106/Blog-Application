@@ -1,7 +1,7 @@
 # Blog Application
 
 
-This project is developed by individual with the help of the Spring-Boot framework.It is Back-End project build in construct week at masai.
+This project is developed by individual with the help of the Spring-Boot framework.It is Back-End project build in 4 working days.
 It contained all the basic CRUD operation related to different entity.
 
 ## Contributors (Individual Project)
