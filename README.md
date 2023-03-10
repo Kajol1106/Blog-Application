@@ -12,7 +12,6 @@ It contained all the basic CRUD operation related to different entity.
 - Java
 - Spring Boot Framework
 - Spring Data JPA
-- Spring MVC
 - Hibernate
 - MySQL
 - Swagger
@@ -37,9 +36,17 @@ User Features:
  
 Categories Features:
  - categories the posts according to categories
+ - user can fetch one specific category or list of categories.
+ - user can delete and update the category.
  
  Post Features:
+ - user can fetch posts using user Id or category Id or post Id
+ - user can fetch all posts
+ - user can delete and update the post
  - posts API includes pagination and sorting
+ - you can search posts using keyword.
+ - posts include one image too.
+ - user can get the specific image also.
  
  ## Used Architecture 
  
