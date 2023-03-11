@@ -32,7 +32,6 @@ It contained all the basic CRUD operation related to different entity.
 ## ER Diagram
 ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/blogapperdiagram.png)
 
-## Features
 User Features:
 - user should create, update, delete and list posts
 - new user should able to register on our application
@@ -78,6 +77,8 @@ Database layer:
 - This layer contains the tables, indexes, and data managed by the application.
 - Searches and insert/delete/update operations are executed here. 
 
+## 👉 [Click here](https://drive.google.com/file/d/1MVQJOzg1e8fEZ4Pb0rEgS8Rf3GRf17l-/view?usp=sharing) to go through detail explanation of this application 
+
   
 ## Installation & Run
 - To run this API server, you should update the database configuration inside the application.properties file which is present in the src/main/resources folder.
@@ -92,3 +93,4 @@ spring.datasource.password=enter_password
 ```
 https://localhost:8888/
 ```
+
