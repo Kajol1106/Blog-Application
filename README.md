@@ -79,12 +79,14 @@ Database layer:
 
 ## 👉 [Click here](https://drive.google.com/file/d/1MVQJOzg1e8fEZ4Pb0rEgS8Rf3GRf17l-/view?usp=sharing) to go through detail explanation of this application 
 
+## 👉 [Click here](http://localhost:8888/swagger-ui/index.html#/) to go through documentation after running application in your system
+
   
 ## Installation & Run
 - To run this API server, you should update the database configuration inside the application.properties file which is present in the src/main/resources folder.
 - Update the port number, username and password as per your local database configuration.
-server.port=8008
-spring.datasource.url=jdbc:mysql://localhost:3306/Trim;
+server.port=8888
+spring.datasource.url=jdbc:mysql://localhost:3306/Blogapp;
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=enter_username
 spring.datasource.password=enter_password
@@ -93,4 +95,6 @@ spring.datasource.password=enter_password
 ```
 https://localhost:8888/
 ```
+
+## 
 
