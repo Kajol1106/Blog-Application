@@ -32,20 +32,20 @@ It contained all the basic CRUD operation related to different entity.
 ## ER Diagram
 ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/blogapperdiagram.png)
 
-User Features:
+## User Module :
 - user should create, update, delete and list posts
 - new user should able to register on our application
 
 ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/UserController.png)
  
-Categories Features:
+## Categories Module :
  - categories the posts according to categories
  - user can fetch one specific category or list of categories.
  - user can delete and update the category.
  
  ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CategoryController.png)
  
- Post Features:
+ ## Post Module :
  - user can fetch posts using user Id or category Id or post Id
  - user can fetch all posts
  - user can delete and update the post
@@ -56,7 +56,7 @@ Categories Features:
  
  ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/PostController.png)
  
- Comment Features:
+ ## Comment Module :
  - user shoud add, update, delete comments on posts.
  
  ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CommentController.png)
