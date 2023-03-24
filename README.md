@@ -35,11 +35,15 @@ It contained all the basic CRUD operation related to different entity.
 User Features:
 - user should create, update, delete and list posts
 - new user should able to register on our application
+
+![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/UserController.png)
  
 Categories Features:
  - categories the posts according to categories
  - user can fetch one specific category or list of categories.
  - user can delete and update the category.
+ 
+ ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CategoryController.png)
  
  Post Features:
  - user can fetch posts using user Id or category Id or post Id
@@ -50,8 +54,12 @@ Categories Features:
  - posts include one image too.
  - user can get the specific image also.
  
+ ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/PostController.png)
+ 
  Comment Features:
  - user shoud add, update, delete comments on posts.
+ 
+ ![img](https://github.com/Kajol1106/Blog-Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CommentController.png)
  
  ## Architecture 
  
